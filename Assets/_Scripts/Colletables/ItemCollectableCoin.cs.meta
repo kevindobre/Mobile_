@@ -3,7 +3,11 @@ guid: 6185df34cb1b59a4ba52df2af3442ec9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - particleSystem: {instanceID: 0}
+  - graphicItem: {fileID: 3984196421675437259, guid: 2575025626298c14287bb19cf7b4ad84, type: 3}
+  - audioSource: {instanceID: 0}
+  - colider: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

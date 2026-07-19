@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 6179579646157440633}
   - component: {fileID: 8715284240691411307}
   - component: {fileID: 2723153923209416158}
+  - component: {fileID: 3876615972610211451}
   m_Layer: 0
   m_Name: post
   m_TagString: Untagged
@@ -232,6 +233,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &3876615972610211451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840575961442101578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788f17caa57a2e45be2b5937ff50168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  meshRenderer: {fileID: 8715284240691411307}
+  duration: 1
 --- !u!1 &6434577433986094520
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +365,7 @@ GameObject:
   - component: {fileID: 4453911685239578211}
   - component: {fileID: 7410796367744744330}
   - component: {fileID: 896194344926655082}
+  - component: {fileID: 6121380015420768445}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -443,6 +460,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &6121380015420768445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6501467629267706629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788f17caa57a2e45be2b5937ff50168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  meshRenderer: {fileID: 7410796367744744330}
+  duration: 1
 --- !u!1 &6503268138289002024
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +487,7 @@ GameObject:
   - component: {fileID: 4370040308832556171}
   - component: {fileID: 1628489873727067754}
   - component: {fileID: 7738222207782424562}
+  - component: {fileID: 5955889019691246080}
   m_Layer: 0
   m_Name: Post
   m_TagString: Untagged
@@ -550,6 +583,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &5955889019691246080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6503268138289002024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788f17caa57a2e45be2b5937ff50168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  meshRenderer: {fileID: 1628489873727067754}
+  duration: 1
 --- !u!1 &8379298550409257723
 GameObject:
   m_ObjectHideFlags: 0

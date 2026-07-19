@@ -29,6 +29,8 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Animations")]
     public AnimatorManager animatorManager;
 
+    [SerializeField] private BounceHelper _bounceHelper;
+
     //Privates
     private bool _canRun;
     private Vector3 _pos;
@@ -43,6 +45,13 @@ public class PlayerController : Singleton<PlayerController>
     }
 
     // Update is called once per frame
+
+    public void Bounce()
+    {
+        if(_bounceHelper != null) 
+            _bounceHelper.Bounce();
+    }
+
     void Update()
     {
         if (!_canRun) return;

@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace core.Singleton
 {
-
     public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         public static T Instance;
+        public static bool HasInstance => Instance != null;
 
         private void Awake()
         {

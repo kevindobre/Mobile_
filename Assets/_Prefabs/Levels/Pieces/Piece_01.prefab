@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2968983096150602878}
   - component: {fileID: 2608903270666627026}
   - component: {fileID: 821355818369703445}
+  - component: {fileID: 1854691176957778901}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -106,6 +107,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1854691176957778901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3392704409933852048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5788f17caa57a2e45be2b5937ff50168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  meshRenderer: {fileID: 2608903270666627026}
+  duration: 1
 --- !u!1 &4557738658279902451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,6 +1424,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2700093402578249423}
     m_Modifications:
+    - target: {fileID: 649140885915679518, guid: 2575025626298c14287bb19cf7b4ad84, type: 3}
+      propertyPath: duration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3540316955152565790, guid: 2575025626298c14287bb19cf7b4ad84, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1548,6 +1568,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2700093402578249423}
     m_Modifications:
+    - target: {fileID: 649140885915679518, guid: 2575025626298c14287bb19cf7b4ad84, type: 3}
+      propertyPath: duration
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3540316955152565790, guid: 2575025626298c14287bb19cf7b4ad84, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
